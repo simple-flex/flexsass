@@ -2,7 +2,7 @@
 ###### simpler flex syntax
 ###### simple-flex implementation mixins
 
-### [simple-flex]() implementation in sass style (`@include flex(sass)`)
+### [simple-flex](https://github.com/simple-flex/simple-flex) implementation in sass style (`@include`)
 
 ```sh
 npm i flexsass # -- save
