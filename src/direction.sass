@@ -1,0 +1,5 @@
+@mixin direction($d)
+  @if $d == row { flex-direction: row; }
+  @if $d == column { flex-direction: column; }
+  @if $d == rev-row { flex-direction: row-reverse; }
+  @if $d == rev-column { flex-direction: column-reverse; }
