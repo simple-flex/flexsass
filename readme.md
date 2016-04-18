@@ -8,14 +8,19 @@
 npm i flexsass # -- save
 ```
 ```sass
-@import 'node_modules/flexsass/flex'
+@import '../node_modules/flexsass/flex'
 
 body
   @include flex(sass)
+  // display: flex;
+  
+  @include flex(line)
+  // display: inline-flex;
+  
   @include flex(center)
   /*
-    display: flex;
     align-items: center;
+    align-content: center;
     justify-content: center;
   */
 
