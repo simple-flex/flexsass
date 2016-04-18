@@ -10,5 +10,21 @@
   @if $f == line { display: inline-flex; }
 
   @if $f == center
+    @include line-align(center)
     @include justify(center)
     @include align(center)
+
+  @if $f == grow { flex-grow: 1; }
+  @if $f == no-grow { flex-grow: 0; }
+
+  @if $f == shrink { flex-shrink: 1; }
+  @if $f == no-shrink { flex-shrink: 0; }
+
+  @if $f == baseline or $f == stretch
+    @include align($f)
+
+  @if $f == between or $f == around
+    @include justify($f)
+
+  @include direction($f)
+  @include wrap($f)
