@@ -4,3 +4,7 @@
 @mixin flex($f)
   @if $f == sass { display: flex; }
   @if $f == line { display: inline-flex; }
+
+  @if $f == center
+    @include justify(center)
+    @include align(center)
