@@ -1,0 +1,25 @@
+{
+  "name": "flexsass",
+  "version": "0.1.0",
+  "description": "simpler flex syntax, simple-flex implementation mixins",
+  "main": "flex.sass",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simple-flex/flexsass.git"
+  },
+  "keywords": [
+    "simple",
+    "syntax",
+    "flex",
+    "sass"
+  ],
+  "author": "Damian Martyniak <rascada>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simple-flex/flexsass/issues"
+  },
+  "homepage": "https://github.com/simple-flex/flexsass#readme"
+}
